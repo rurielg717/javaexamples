@@ -1,6 +1,6 @@
 /*
 
- _____ ____ ___   ____   ___  _  ___  
+  _____ ____ ___   ____   ___  _  ___  
  | ____/ ___|_ _| |___ \ / _ \/ |( _ ) 
  |  _| \___ \| |    __) | | | | |/ _ \ 
  | |___ ___) | |   / __/| |_| | | (_) |
@@ -9,61 +9,109 @@
 
  */
 
-public class exercise1 {
-	public static void main(String[] args){
+// Single line comment - text that are ignored by the compiler
+// useful for marking down your code to explain what you are doing
 
-//Strings are alphanumerical words that inlcude nearly any character/
-//Replace this String with your name and favorite food!
-
- String name = "TheLegend27";
- String favFood = "waffles";
+/*
+	Multi-line comment - for when things get real... complicated...
+*/
 
 
-//Intergers are whole numbers that are either positive or negative, or 0.
-//Replace this integer with your age!
+/**** Naming conventions java files ****
 
- int age = 46;
+	* The first character of a .java file is in uppercase
+	* The class name below is the same as the file name
+*/
+public class Exercise1 {
 
-//Doubles are numbers that have decimals and are positive or negative
-//Replace this Double with the gas prices in Chicago
- 
-Double gasPrice = 3.48;
+	// point of entry for program execution when running the compiled java file
+	public static void main (String[] args) {
 
-//Boolean are values that are either true or false
-//Replace this boolean value with true or false for the following question
+		/**** Variables and Data types ****
+			
+			Initialization
 
-//Are you a student at IIT?
+			[Data Type] [Variable Name];
+			[Data Type] [Variable Name] = [Initial Value(s)]; 
 
-boolean yesOrNo = false;
+			After initialization, variables can be referred to using their names
+		*/
 
-//Characters are values with 1 letter from A-Z and they use single quotes ''
-//Replace this char with your first and last initials
+		// Integer/int are whole numbers that can be between -2,147,483,648 to 2,147,483,647
+		int drivingAge;
+		int age = 46;
+		drivingAge = 12;
 
-char firstInitial = 'a';
-char lastInitial = 'z';
+		// Double are numbers with decimals that can be between ± 1.79769313486231570E+308 
+		Double salesTax;
+		Double gasPrice = 3.48;
+		salesTax = 0.12;
+
+		// boolean values can be either true or false
+		boolean isRaining;
+		boolean goOutside = true;
+		isRaining = false;
+
+		// Characters are variables that can only one values using single quoutes ''
+		char shirtSize = 'L';
+		shirtSize = 'S';
+		char gender;
+
+		// Strings are words that includes any charaters
+		String name;
+		String favFood = "Waffles";
 
 
-//Run this file after making changes and see what you have!
-
-System.out.println("My name is " + name + " and my favorite food is " + favFood + "!");
-System.out.println("I am " + age + " years old!");
-if(age == 69){
-	System.out.println("N i c e!");
-} else if(age < 16){
-	System.out.println("Wait w h a t");
-} else if(age > 19){
-	System.out.println("Oof");
-}
-System.out.println("The current gas prices is " + gasPrice + "!");
-System.out.println("My initials are " + firstInitial + ". " + lastInitial + ". ");
+		// Java's class that allows printing text to terminal, useful to see your results and debugging
+		System.out.println("My name is " + name + " and my favorite food is " + favFood + "!");
+		System.out.println("I am " + age + " years old!");
 
 
+		/**** If-Conditions  ****
+			Rules:
+				* If-conditions always start with: if 
+				* If-conditions optionally can have numerous: else if
+				* If-conditions may end with: else 
 
-if(yesOrNo == true){
-	System.out.println("I am a student at IIT!");
-} else {
-	System.out.println("I am NOT a student at IIT!");
-}
+			Structure:
+		––––––––––––––––––––––––––––––––––––––––
+			if ( [boolean(s)] ) {
+				[code(s) ];
+			}
+		––––––––––––––––––––––––––––––––––––––––
+			if ( [boolean(s)] ) {
+				[code(s)];
+			}
+			else {
+				[code(s)];
+			}
+		––––––––––––––––––––––––––––––––––––––––
+			if ( [boolean(s)] ) {
+				[code(s)];
+			}
+			else if ( [boolean(s)] ) {
+				[code(s)]
+			}
+			else if ( [boolean(s)] ) {
+				[code(s)]
+			}
+			...
+		––––––––––––––––––––––––––––––––––––––––
+			if ( [boolean(s)] ) {
+				[code(s)];
+			}
+			else if ( [boolean(s)] ) {
+				[code(s)]
+			}
+			else if ( [boolean(s)] ) {
+				[code(s)]
+			}
+			...
+			else {
+				[code(s)];
+			}
+		––––––––––––––––––––––––––––––––––––––––
+		*/
 	}
 }
 
