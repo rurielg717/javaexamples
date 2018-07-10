@@ -11,18 +11,13 @@
 /* Exercise
 	
     Warmup-1 
-    * NearHundred 	- abs value
+	* NearHundred 	- abs value
 	* backAround 	- substring, 
-    * missingChar 	- substring
-    * startHi 		- substring, equals
-    * or35			- mod operator
-    * posNeg		- if-condition, logical operators
-    * in3050		- if-condition, logical operators
-    
-    Logic-1
-    *
-    * 
-    * 
+	* missingChar 	- substring
+	* startHi 		- substring, equals
+	* or35			- mod operator
+	* posNeg		- if-condition, logical operators
+	* in3050		- if-condition, logical operators
     
 */
 
@@ -87,17 +82,17 @@ public class Review1 {
 
 		/**** Operators ****
 		 	
-            Mathematical Operators 
-            + - / * %
-            
-            Logical Operators
-            [boolean] && [boolean]
-            [boolean] || [boolean]
-            ![boolean]
-            	
-            
-            Comparsion Operators
-            [ number ] == [ number ]
+			Mathematical Operators 
+			+ - / * %
+
+			Logical Operators
+			[boolean] && [boolean]
+			[boolean] || [boolean]
+			![boolean]
+				
+
+			Comparsion Operators
+			[ number ] == [ number ]
 			[ number ] <= [ number ]
 			[ number ] >= [ number ]
 			[ number ] != [ number ]
@@ -105,36 +100,36 @@ public class Review1 {
 			[ number ] >  [ number ]
 		*/
 		// mathematical operators
-      int boys = 17;
-      int girls = 14;
-      double earned = 12.76;
-      double spent = 5.5;
-      int ssn = 756483923;
+		int boys = 17;
+		int girls = 14;
+		double earned = 12.76;
+		double spent = 5.5;
+		int ssn = 756483923;
+
+		int students = boys + girls;
+		double moneyLeft = earned - spent;
+		int lastFourDigOfSSN  = ssn % 10000;
+		double earnedInFiveWeeks = earned * 5;
+		double groupsOfFour = students / 4;
+
+		//logical operators
+		boolean sick = true;
+		boolean weekday = true;
+		boolean ventraCard = true;
+		boolean car = false;
+
+		boolean goToSchool = weekday && !sick;
+		boolean goOut= ventraCard || car;
       
-      int students = boys + girls;
-      double moneyLeft = earned - spent;
-      int lastFourDigOfSSN  = ssn % 10000;
-      double earnedInFiveWeeks = earned * 5;
-      double groupsOfFour = students / 4;
-      
-       //logical operators
-      boolean sick = true;
-      boolean weekday = true;
-      boolean ventraCard = true;
-      boolean car = false;
-      
-      boolean goToSchool = weekday && !sick;
-      boolean goOut= ventraCard || car;
-      
-      //comparison operators 
-        int age = 12;
-        int drivingAge = 18;
-        int testGrade=67;
-        int siblings=3;
-      
-        boolean canDrive = age > drivingAge;
-        boolean grounded = testGrade =< 70;
-        boolean isOnlyChild= siblings == 0;
+		//comparison operators 
+		int age = 12;
+		int drivingAge = 18;
+		int testGrade=67;
+		int siblings=3;
+
+		boolean canDrive = age > drivingAge;
+		boolean grounded = testGrade =< 70;
+		boolean isOnlyChild= siblings == 0;
       
 		/**** If-Conditions  ****
 			Rules:
