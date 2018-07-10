@@ -1,0 +1,67 @@
+/*
+
+ _____ ____ ___   ____   ___  _  ___  
+ | ____/ ___|_ _| |___ \ / _ \/ |( _ ) 
+ |  _| \___ \| |    __) | | | | |/ _ \ 
+ | |___ ___) | |   / __/| |_| | | (_) |
+ |_____|____/___| |_____|\___/|_|\___/ 
+
+ */
+
+public class exercise1 {
+	public static void main(String[] args){
+
+//Strings are alphanumerical words that inlcude nearly any character/
+//Replace this String with your name and favorite food!
+
+ String name = "TheLegend27";
+ String favFood = "waffles";
+
+
+//Intergers are whole numbers that are either positive or negative, or 0.
+//Replace this integer with your age!
+
+ int age = 46;
+
+//Doubles are numbers that have decimals and are positive or negative
+//Replace this Double with the gas prices in Chicago
+ 
+Double gasPrice = 3.48;
+
+//Boolean are values that are either true or false
+//Replace this boolean value with true or false for the following question
+
+//Are you a student at IIT?
+
+boolean yesOrNo = false;
+
+//Characters are values with 1 letter from A-Z and they use single quotes ''
+//Replace this char with your first and last initials
+
+char firstInitial = 'a';
+char lastInitial = 'z';
+
+
+//Run this file after making changes and see what you have!
+
+System.out.println("My name is " + name + " and my favorite food is " + favFood + "!");
+System.out.println("I am " + age + " years old!");
+if(age == 69){
+	System.out.println("N i c e!");
+} else if(age < 16){
+	System.out.println("Wait w h a t");
+} else if(age > 19){
+	System.out.println("Oof");
+}
+System.out.println("The current gas prices is " + gasPrice + "!");
+System.out.println("My initials are " + firstInitial + ". " + lastInitial + ". ");
+
+
+
+if(yesOrNo == true){
+	System.out.println("I am a student at IIT!");
+} else {
+	System.out.println("I am NOT a student at IIT!");
+}
+	}
+}
