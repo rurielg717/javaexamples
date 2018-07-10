@@ -67,6 +67,13 @@ public class Exercise1 {
 		System.out.println("I am " + age + " years old!");
 
 
+		/**** Operators ****
+	
+		
+		*/
+
+
+
 		/**** If-Conditions  ****
 			Rules:
 				* If-conditions always start with: if 
@@ -75,40 +82,40 @@ public class Exercise1 {
 
 			Structure:
 		––––––––––––––––––––––––––––––––––––––––
-			if ( [boolean(s)] ) {
-				[code(s) ];
+			if ( [boolean] ) {
+				[code];
 			}
 		––––––––––––––––––––––––––––––––––––––––
-			if ( [boolean(s)] ) {
-				[code(s)];
+			if ( [boolean] ) {
+				[code];
 			}
 			else {
-				[code(s)];
+				[code];
 			}
 		––––––––––––––––––––––––––––––––––––––––
-			if ( [boolean(s)] ) {
-				[code(s)];
+			if ( [boolean] ) {
+				[code];
 			}
-			else if ( [boolean(s)] ) {
-				[code(s)]
+			else if ( [boolean] ) {
+				[code]
 			}
-			else if ( [boolean(s)] ) {
-				[code(s)]
+			else if ( [boolean] ) {
+				[code]
 			}
 			...
 		––––––––––––––––––––––––––––––––––––––––
-			if ( [boolean(s)] ) {
-				[code(s)];
+			if ( [boolean] ) {
+				[code];
 			}
-			else if ( [boolean(s)] ) {
-				[code(s)]
+			else if ( [boolean] ) {
+				[code]
 			}
-			else if ( [boolean(s)] ) {
-				[code(s)]
+			else if ( [boolean] ) {
+				[code]
 			}
 			...
 			else {
-				[code(s)];
+				[code];
 			}
 		––––––––––––––––––––––––––––––––––––––––
 		*/
