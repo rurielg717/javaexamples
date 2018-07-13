@@ -8,7 +8,15 @@
 
  */
 
- //If you are lost, do not be afraid to ask for help or look back on previous assignments.
+//While Loops!
+/*
+while ( conditional statement) {
+code that will be ran repeatedly
+}
+
+
+
+*/
 
 public class whileLoop {
 	public static void main(String[] args){
