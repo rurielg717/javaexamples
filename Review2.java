@@ -1,11 +1,9 @@
 /*
-
  _____ ____ ___   ____   ___  _  ___  
  | ____/ ___|_ _| |___ \ / _ \/ |( _ ) 
  |  _| \___ \| |    __) | | | | |/ _ \ 
  | |___ ___) | |   / __/| |_| | | (_) |
  |_____|____/___| |_____|\___/|_|\___/ 
-
  */
 
  //If you are lost, do not be afraid to ask for help or look back on previous assignments.
@@ -20,18 +18,14 @@ OR
 type[] var-name;
  
 such as
-
 int intArray[]; 
 or int[] intArray; 
-
 BOTH are valid ways to initialize arrays
-
  */
     
 //Now we're going to create an integer array for a phone number
 
 /*
-
 Each number and space in the array consists with its index
 [7][7][3][8][8][6][9][5][9][3]
 |0||1||2||3||4||5||6||7||8||9|
@@ -57,15 +51,18 @@ Each number and space in the array consists with its index
 
     //EXERCISE: Create a String array called birbs with 5 indexes. In the first index put "cockatiels"
     
-    
+ String[] birbs;
+      birbs = new String [6];      
 
-	
-
-
-
- 	for (int i = 0; i < birbs.length; i++) {
-         System.out.println("The bird at the " + i + " index is the "+ birbs[i]);          
-    }
-
+      birbs[0] = "cockatiels";
+      birbs[1] = "bluejays";
+      birbs[2] = "parrots";
+      birbs[3] = "mockingbird";
+      birbs[4] = "cardinal";
+      birbs[5] = "eagle";
+  
+  for (int i = 0; i < birbs.length; i++) {
+         System.out.println("The bird at the " + i + " index is the "+ birbs[i]);     
 	}
+    }
 }
